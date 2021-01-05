@@ -1,0 +1,26 @@
+PODS:
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - Surge (2.1.0)
+  - SwiftSocket (2.0.2)
+
+DEPENDENCIES:
+  - Charts
+  - Surge
+  - SwiftSocket
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Charts
+    - Surge
+    - SwiftSocket
+
+SPEC CHECKSUMS:
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  Surge: 570bf0b2cb4cc92d1744050d45c064005c6c99ad
+  SwiftSocket: 6f4c9c63fbc5c1d61188936bb3c599fd546f40ae
+
+PODFILE CHECKSUM: a00a04453b16cd4e20a75569945c5db774aed8b9
+
+COCOAPODS: 1.5.3

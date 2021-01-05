@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D748C66765BB3E497A7E9D0 /* Pods_Capid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CD8DA6B3A02E4B7D25B1C4 /* Pods_Capid.framework */; };
+		7829DF11210F9EE70007F37B /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7829DF10210F9EE70007F37B /* GalleryViewController.swift */; };
+		7829DF13210FD7870007F37B /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7829DF12210FD7870007F37B /* ImageController.swift */; };
+		7829DF152110EE4C0007F37B /* TensionAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7829DF142110EE4C0007F37B /* TensionAnalyzer.swift */; };
+		78307EE9210E412500BD07E1 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78307EE8210E412500BD07E1 /* ModelManager.swift */; };
+		78307EEB210E57AC00BD07E1 /* GroupsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78307EEA210E57AC00BD07E1 /* GroupsController.swift */; };
+		78414F582125FDE4003D32CE /* AppClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78414F572125FDE4003D32CE /* AppClient.swift */; };
+		78414F5A2125FF16003D32CE /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78414F592125FF16003D32CE /* ImageProcessor.swift */; };
+		78414F5F2125FF7A003D32CE /* ProcessorHelpers.c in Sources */ = {isa = PBXBuildFile; fileRef = 78414F5D2125FF7A003D32CE /* ProcessorHelpers.c */; };
+		78424B8721C47047001721FB /* RulerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78424B8621C47047001721FB /* RulerController.swift */; };
+		786847442142D6D000072FC4 /* AnalysisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786847432142D6D000072FC4 /* AnalysisController.swift */; };
+		787B5A9C20FCF4D6006056A1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 787B5A9B20FCF4D6006056A1 /* Podfile */; };
+		787B5AA020FFAB81006056A1 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787B5A9F20FFAB81006056A1 /* Camera.swift */; };
+		787B5AB220FFC015006056A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787B5AAF20FFC015006056A1 /* AppDelegate.swift */; };
+		787B5AB320FFC015006056A1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787B5AB020FFC015006056A1 /* Extensions.swift */; };
+		787B5AB420FFC015006056A1 /* helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787B5AB120FFC015006056A1 /* helpers.swift */; };
+		787B5AB720FFC2AC006056A1 /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787B5AB620FFC2AC006056A1 /* classes.swift */; };
+		7895A50E2141C6E5005A1A4F /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7895A50D2141C6E5005A1A4F /* CameraController.swift */; };
+		789E084E20EEA75800BBF4FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789E084C20EEA75800BBF4FB /* Main.storyboard */; };
+		789E085020EEA75900BBF4FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789E084F20EEA75900BBF4FB /* Assets.xcassets */; };
+		789E085320EEA75900BBF4FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789E085120EEA75900BBF4FB /* LaunchScreen.storyboard */; };
+		78CCB06E210E3CF300C1A877 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78CCB06C210E3CF300C1A877 /* Model.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		789E085A20EEA75900BBF4FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 789E083D20EEA75800BBF4FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 789E084420EEA75800BBF4FB;
+			remoteInfo = Capid;
+		};
+		789E086520EEA75900BBF4FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 789E083D20EEA75800BBF4FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 789E084420EEA75800BBF4FB;
+			remoteInfo = Capid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42CD8DA6B3A02E4B7D25B1C4 /* Pods_Capid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Capid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A0123C7A6F0A2FE6355054 /* Pods-Capid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Capid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Capid/Pods-Capid.debug.xcconfig"; sourceTree = "<group>"; };
+		7829DF10210F9EE70007F37B /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		7829DF12210FD7870007F37B /* ImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
+		7829DF142110EE4C0007F37B /* TensionAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TensionAnalyzer.swift; sourceTree = "<group>"; };
+		78307EE8210E412500BD07E1 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		78307EEA210E57AC00BD07E1 /* GroupsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsController.swift; sourceTree = "<group>"; };
+		78414F572125FDE4003D32CE /* AppClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClient.swift; sourceTree = "<group>"; };
+		78414F592125FF16003D32CE /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		78414F5C2125FF7A003D32CE /* Capid-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Capid-Bridging-Header.h"; sourceTree = "<group>"; };
+		78414F5D2125FF7A003D32CE /* ProcessorHelpers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ProcessorHelpers.c; sourceTree = "<group>"; };
+		78424B8621C47047001721FB /* RulerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulerController.swift; sourceTree = "<group>"; };
+		786847432142D6D000072FC4 /* AnalysisController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisController.swift; sourceTree = "<group>"; };
+		787B5A9B20FCF4D6006056A1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		787B5A9F20FFAB81006056A1 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		787B5AAF20FFC015006056A1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		787B5AB020FFC015006056A1 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		787B5AB120FFC015006056A1 /* helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helpers.swift; sourceTree = "<group>"; };
+		787B5AB620FFC2AC006056A1 /* classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classes.swift; sourceTree = "<group>"; };
+		7895A50D2141C6E5005A1A4F /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		789E084520EEA75800BBF4FB /* Capid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		789E084D20EEA75800BBF4FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		789E084F20EEA75900BBF4FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		789E085220EEA75900BBF4FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		789E085420EEA75900BBF4FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		789E085920EEA75900BBF4FB /* CapidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		789E086420EEA75900BBF4FB /* CapidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78CCB06D210E3CF300C1A877 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		F5D9ECF95BD96D78BEE927B7 /* Pods-Capid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Capid.release.xcconfig"; path = "Pods/Target Support Files/Pods-Capid/Pods-Capid.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		789E084220EEA75800BBF4FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D748C66765BB3E497A7E9D0 /* Pods_Capid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789E085620EEA75900BBF4FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789E086120EEA75900BBF4FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0D91B96C6DA1A99D59F949 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61A0123C7A6F0A2FE6355054 /* Pods-Capid.debug.xcconfig */,
+				F5D9ECF95BD96D78BEE927B7 /* Pods-Capid.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		78414F552125FD7D003D32CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7895A50D2141C6E5005A1A4F /* CameraController.swift */,
+				786847432142D6D000072FC4 /* AnalysisController.swift */,
+				78307EEA210E57AC00BD07E1 /* GroupsController.swift */,
+				7829DF10210F9EE70007F37B /* GalleryViewController.swift */,
+				7829DF12210FD7870007F37B /* ImageController.swift */,
+				78424B8621C47047001721FB /* RulerController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		78414F562125FDBA003D32CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				787B5AB620FFC2AC006056A1 /* classes.swift */,
+				7829DF142110EE4C0007F37B /* TensionAnalyzer.swift */,
+				787B5A9F20FFAB81006056A1 /* Camera.swift */,
+				78307EE8210E412500BD07E1 /* ModelManager.swift */,
+				78414F572125FDE4003D32CE /* AppClient.swift */,
+				78414F592125FF16003D32CE /* ImageProcessor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78414F5B2125FF47003D32CE /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				787B5AB120FFC015006056A1 /* helpers.swift */,
+				78414F5D2125FF7A003D32CE /* ProcessorHelpers.c */,
+				78414F5C2125FF7A003D32CE /* Capid-Bridging-Header.h */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		787B5AB520FFC01B006056A1 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				78CCB06C210E3CF300C1A877 /* Model.xcdatamodeld */,
+				789E084F20EEA75900BBF4FB /* Assets.xcassets */,
+				789E085120EEA75900BBF4FB /* LaunchScreen.storyboard */,
+				787B5AAF20FFC015006056A1 /* AppDelegate.swift */,
+				787B5AB020FFC015006056A1 /* Extensions.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		789E083C20EEA75800BBF4FB = {
+			isa = PBXGroup;
+			children = (
+				787B5A9B20FCF4D6006056A1 /* Podfile */,
+				789E084720EEA75800BBF4FB /* Capid */,
+				789E084620EEA75800BBF4FB /* Products */,
+				1A0D91B96C6DA1A99D59F949 /* Pods */,
+				CDB78BB961309B997BAC5098 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		789E084620EEA75800BBF4FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				789E084520EEA75800BBF4FB /* Capid.app */,
+				789E085920EEA75900BBF4FB /* CapidTests.xctest */,
+				789E086420EEA75900BBF4FB /* CapidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		789E084720EEA75800BBF4FB /* Capid */ = {
+			isa = PBXGroup;
+			children = (
+				78414F5B2125FF47003D32CE /* Functions */,
+				78414F562125FDBA003D32CE /* Model */,
+				78414F552125FD7D003D32CE /* Controllers */,
+				787B5AB520FFC01B006056A1 /* Supports */,
+				789E084C20EEA75800BBF4FB /* Main.storyboard */,
+				789E085420EEA75900BBF4FB /* Info.plist */,
+			);
+			path = Capid;
+			sourceTree = "<group>";
+		};
+		CDB78BB961309B997BAC5098 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42CD8DA6B3A02E4B7D25B1C4 /* Pods_Capid.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		789E084420EEA75800BBF4FB /* Capid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789E086D20EEA75900BBF4FB /* Build configuration list for PBXNativeTarget "Capid" */;
+			buildPhases = (
+				63F73D8D8DFAC29F163E7E6B /* [CP] Check Pods Manifest.lock */,
+				789E084120EEA75800BBF4FB /* Sources */,
+				789E084220EEA75800BBF4FB /* Frameworks */,
+				789E084320EEA75800BBF4FB /* Resources */,
+				9EDA784EDE8ED5BD7723A03D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Capid;
+			productName = Capid;
+			productReference = 789E084520EEA75800BBF4FB /* Capid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		789E085820EEA75900BBF4FB /* CapidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789E087020EEA75900BBF4FB /* Build configuration list for PBXNativeTarget "CapidTests" */;
+			buildPhases = (
+				789E085520EEA75900BBF4FB /* Sources */,
+				789E085620EEA75900BBF4FB /* Frameworks */,
+				789E085720EEA75900BBF4FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				789E085B20EEA75900BBF4FB /* PBXTargetDependency */,
+			);
+			name = CapidTests;
+			productName = CapidTests;
+			productReference = 789E085920EEA75900BBF4FB /* CapidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		789E086320EEA75900BBF4FB /* CapidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789E087320EEA75900BBF4FB /* Build configuration list for PBXNativeTarget "CapidUITests" */;
+			buildPhases = (
+				789E086020EEA75900BBF4FB /* Sources */,
+				789E086120EEA75900BBF4FB /* Frameworks */,
+				789E086220EEA75900BBF4FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				789E086620EEA75900BBF4FB /* PBXTargetDependency */,
+			);
+			name = CapidUITests;
+			productName = CapidUITests;
+			productReference = 789E086420EEA75900BBF4FB /* CapidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		789E083D20EEA75800BBF4FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Shichao Yue";
+				TargetAttributes = {
+					789E084420EEA75800BBF4FB = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+					};
+					789E085820EEA75900BBF4FB = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 789E084420EEA75800BBF4FB;
+					};
+					789E086320EEA75900BBF4FB = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 789E084420EEA75800BBF4FB;
+					};
+				};
+			};
+			buildConfigurationList = 789E084020EEA75800BBF4FB /* Build configuration list for PBXProject "Capid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 789E083C20EEA75800BBF4FB;
+			productRefGroup = 789E084620EEA75800BBF4FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				789E084420EEA75800BBF4FB /* Capid */,
+				789E085820EEA75900BBF4FB /* CapidTests */,
+				789E086320EEA75900BBF4FB /* CapidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		789E084320EEA75800BBF4FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789E085320EEA75900BBF4FB /* LaunchScreen.storyboard in Resources */,
+				789E085020EEA75900BBF4FB /* Assets.xcassets in Resources */,
+				787B5A9C20FCF4D6006056A1 /* Podfile in Resources */,
+				789E084E20EEA75800BBF4FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789E085720EEA75900BBF4FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789E086220EEA75900BBF4FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63F73D8D8DFAC29F163E7E6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Capid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EDA784EDE8ED5BD7723A03D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Capid/Pods-Capid-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Surge/Surge.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Surge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Capid/Pods-Capid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		789E084120EEA75800BBF4FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787B5AB720FFC2AC006056A1 /* classes.swift in Sources */,
+				7829DF13210FD7870007F37B /* ImageController.swift in Sources */,
+				787B5AB220FFC015006056A1 /* AppDelegate.swift in Sources */,
+				787B5AA020FFAB81006056A1 /* Camera.swift in Sources */,
+				78414F5A2125FF16003D32CE /* ImageProcessor.swift in Sources */,
+				7829DF152110EE4C0007F37B /* TensionAnalyzer.swift in Sources */,
+				78307EE9210E412500BD07E1 /* ModelManager.swift in Sources */,
+				78CCB06E210E3CF300C1A877 /* Model.xcdatamodeld in Sources */,
+				78414F5F2125FF7A003D32CE /* ProcessorHelpers.c in Sources */,
+				787B5AB320FFC015006056A1 /* Extensions.swift in Sources */,
+				7829DF11210F9EE70007F37B /* GalleryViewController.swift in Sources */,
+				78424B8721C47047001721FB /* RulerController.swift in Sources */,
+				78307EEB210E57AC00BD07E1 /* GroupsController.swift in Sources */,
+				78414F582125FDE4003D32CE /* AppClient.swift in Sources */,
+				786847442142D6D000072FC4 /* AnalysisController.swift in Sources */,
+				787B5AB420FFC015006056A1 /* helpers.swift in Sources */,
+				7895A50E2141C6E5005A1A4F /* CameraController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789E085520EEA75900BBF4FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789E086020EEA75900BBF4FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		789E085B20EEA75900BBF4FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 789E084420EEA75800BBF4FB /* Capid */;
+			targetProxy = 789E085A20EEA75900BBF4FB /* PBXContainerItemProxy */;
+		};
+		789E086620EEA75900BBF4FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 789E084420EEA75800BBF4FB /* Capid */;
+			targetProxy = 789E086520EEA75900BBF4FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		789E084C20EEA75800BBF4FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				789E084D20EEA75800BBF4FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		789E085120EEA75900BBF4FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				789E085220EEA75900BBF4FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		789E086B20EEA75900BBF4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		789E086C20EEA75900BBF4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		789E086E20EEA75900BBF4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A0123C7A6F0A2FE6355054 /* Pods-Capid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QFLA2FD6H;
+				INFOPLIST_FILE = Capid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MIT.Capid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Capid/Functions/Capid-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		789E086F20EEA75900BBF4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D9ECF95BD96D78BEE927B7 /* Pods-Capid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QFLA2FD6H;
+				INFOPLIST_FILE = Capid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MIT.Capid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Capid/Functions/Capid-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		789E087120EEA75900BBF4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CapidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MIT.CapidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capid.app/Capid";
+			};
+			name = Debug;
+		};
+		789E087220EEA75900BBF4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CapidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MIT.CapidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capid.app/Capid";
+			};
+			name = Release;
+		};
+		789E087420EEA75900BBF4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CapidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MIT.CapidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Capid;
+			};
+			name = Debug;
+		};
+		789E087520EEA75900BBF4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CapidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MIT.CapidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Capid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		789E084020EEA75800BBF4FB /* Build configuration list for PBXProject "Capid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789E086B20EEA75900BBF4FB /* Debug */,
+				789E086C20EEA75900BBF4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789E086D20EEA75900BBF4FB /* Build configuration list for PBXNativeTarget "Capid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789E086E20EEA75900BBF4FB /* Debug */,
+				789E086F20EEA75900BBF4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789E087020EEA75900BBF4FB /* Build configuration list for PBXNativeTarget "CapidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789E087120EEA75900BBF4FB /* Debug */,
+				789E087220EEA75900BBF4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789E087320EEA75900BBF4FB /* Build configuration list for PBXNativeTarget "CapidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789E087420EEA75900BBF4FB /* Debug */,
+				789E087520EEA75900BBF4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		78CCB06C210E3CF300C1A877 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				78CCB06D210E3CF300C1A877 /* Model.xcdatamodel */,
+			);
+			currentVersion = 78CCB06D210E3CF300C1A877 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 789E083D20EEA75800BBF4FB /* Project object */;
+}
